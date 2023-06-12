@@ -1,4 +1,4 @@
-:root {
+ :root {
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
@@ -89,7 +89,7 @@ a {
 }
 
 /* media queries */
-@media (min-width: 1536px) {
+ @media (min-width: 1536px) {
   .innerWidth {
     max-width: 1280px;
     margin: auto;
@@ -114,4 +114,4 @@ a {
   .orangeText {
     font-size: 1.2rem;
   }
-}
+} 

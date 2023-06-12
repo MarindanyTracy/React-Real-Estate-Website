@@ -1,8 +1,9 @@
 .c-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 1rem; 
+  width: 100%;
 }
 .c-container>img {
-  width: 9rem;
+  width: 6rem;
 }

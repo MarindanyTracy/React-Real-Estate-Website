@@ -2,10 +2,11 @@
   color: white;
   position: relative;
   padding-bottom: 2rem;
+  width: 100%
 }
 .hero-container {
+  display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 /* right side */
@@ -28,16 +29,14 @@
 .hero-title {
   position: relative;
   z-index: 1;
-}
-.hero-title {
   font-weight: 600;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 5rem;
 }
 .orange-circle {
   position: absolute;
   left: 30%;
-  top: 23%;
+  top: 3%;
   background: var(--orange-gradient);
   width: 4rem;
   height: 4rem;
@@ -49,7 +48,6 @@
   border: 3px solid rgba(120, 120, 120, 0.374);
   padding: 0.5rem 1rem;
   justify-content: space-between;
-  width: 70%;
 }
 .search-bar> input {
   border: none;

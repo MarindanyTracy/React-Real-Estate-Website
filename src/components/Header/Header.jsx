@@ -4,7 +4,7 @@ import './header.css';
 const Header = () => {
   return (
     <section className="h-wrapper">
-      <div className="flexCenter paddings innerWidth h-container">
+      <div className="paddings innerWidth h-container">
         <img src="../../../images/logo.png" alt="logo" width={100} />
 
         <div className="flexCenter h-menu">
