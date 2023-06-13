@@ -92,8 +92,8 @@ const Contacts = () => {
              </div>
 
           {/* right side */}
-          <div className="c-right">
-            <div className="image-container">
+          <div className="flexCenter c-right">
+            <div className="flexCenter image-container">
               <img src="../../../images/contact.jpg" alt="contact" />
             </div>
           </div>
