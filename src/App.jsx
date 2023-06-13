@@ -1,6 +1,7 @@
 
 import './App.css'
 import Contacts from './components/Contacts/Contacts'
+import Footer from './components/Footer/Footer'
 import GetStarted from './components/GetStarted/GetStarted'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -23,6 +24,7 @@ function App() {
     <Value />
     <Contacts />
     <GetStarted />
+    <Footer />
    </div>
   )
 }
