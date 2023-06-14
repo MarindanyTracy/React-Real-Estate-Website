@@ -24,7 +24,7 @@ const Hero = () => {
             <input type="text" />
             <button className="button">Search</button>
           </div>
-          <div className=" stats">
+          <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
                 <CountUp start={8800} end={9000} duration={4} />
